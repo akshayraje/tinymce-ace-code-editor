@@ -11,7 +11,7 @@ TinyMCE plugin that uses [Ace Editor](https://ace.c9.io/) (if available) as HTML
 In TinyMCE init, you need to add `code_toggle` to plugins and also to the toolbar at whatever location you want the toggle button to appear.
 
 ### Example init code:
-```
+```javascript
 tinymce.init({
     selector: 'textarea',
     menubar: false,
